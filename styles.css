@@ -1,0 +1,20 @@
+.bg-1 {
+    background-image: url(IP3/assets/backgrounds/h_img.jpg);
+    height: 100vh;
+}
+
+.red {
+    background-color: rgb(250, 0, 0);
+}
+
+.blue {
+    background-color: rgb(0, 0, 250);
+}
+
+.green {
+    background-color: rgb(0, 250, 0);
+}
+
+.h-100vh {
+    height: 50vh;
+}
