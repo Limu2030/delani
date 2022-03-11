@@ -35,6 +35,48 @@ $(".bigPort-2").mouseout(function () {
   $(".port-2").hide();
 });
 
+$(".bigPort-3").mouseover(function () {
+  $(".port-3").show();
+});
+$(".bigPort-3").mouseout(function () {
+  $(".port-3").hide();
+});
+
+$(".bigPort-4").mouseover(function () {
+  $(".port-4").show();
+});
+$(".bigPort-4").mouseout(function () {
+  $(".port-4").hide();
+});
+
+$(".bigPort-5").mouseover(function () {
+  $(".port-5").show();
+});
+$(".bigPort-5").mouseout(function () {
+  $(".port-5").hide();
+});
+
+$(".bigPort-6").mouseover(function () {
+  $(".port-6").show();
+});
+$(".bigPort-6").mouseout(function () {
+  $(".port-6").hide();
+});
+
+$(".bigPort-7").mouseover(function () {
+  $(".port-7").show();
+});
+$(".bigPort-7").mouseout(function () {
+  $(".port-7").hide();
+});
+
+$(".bigPort-8").mouseover(function () {
+  $(".port-8").show();
+});
+$(".bigPort-8").mouseout(function () {
+  $(".port-8").hide();
+});
+
 // // <!-- 2 -->
 
 // // list the icons

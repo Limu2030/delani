@@ -51,13 +51,83 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate((-50%, -50%));
-  border: 5px;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
   color: white;
   height: 80%;
   width: 80%;
 }
 .bigPort-3 {
+  position: relative;
+}
+.port-4 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+  color: white;
+  height: 80%;
+  width: 80%;
+}
+.bigPort-4 {
+  position: relative;
+}
+.port-5 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+  color: white;
+  height: 80%;
+  width: 80%;
+}
+.bigPort-5 {
+  position: relative;
+}
+.port-6 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+  color: white;
+  height: 80%;
+  width: 80%;
+}
+.bigPort-6 {
+  position: relative;
+}
+.port-7 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+  color: white;
+  height: 80%;
+  width: 80%;
+}
+.bigPort-7 {
+  position: relative;
+}
+.port-8 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+  color: white;
+  height: 80%;
+  width: 80%;
+}
+.bigPort-8 {
   position: relative;
 }
 
