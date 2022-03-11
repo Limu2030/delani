@@ -8,12 +8,46 @@
   height: 100vh;
   background-repeat: no-repeat;
 }
+
 .bg-3 {
   background-image: url(IP3/assets/backgrounds/c_image.jpg);
   height: 900px;
   background-repeat: no-repeat;
 }
-.portfolio {
+
+.port-1 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+  color: white;
+  height: 80%;
+  width: 80%;
+}
+
+.bigPort {
+  position: relative;
+}
+.port-2 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+  color: white;
+  height: 80%;
+  width: 80%;
+}
+
+.bigPort-2 {
+  position: relative;
+}
+
+
+/* .portfolio {
   position: relative;
   width: 100px;
   height: 100px;
@@ -30,8 +64,4 @@
 }
 .portfolio:hover > .portfolio:after {
   display: flex;
-}
-
-.js {
-  style="display: none">
-}
+} */

@@ -1,4 +1,3 @@
-
 // list the icons
 var img = document.querySelectorAll(".js-image");
 // for every icon add an event lietener
@@ -21,6 +20,20 @@ img.forEach((el) => {
   });
 });
 
+// portfolio section - jQuery
+$(".bigPort").mouseover(function () {
+  $(".port-1").show();
+});
+$(".bigPort").mouseout(function () {
+  $(".port-1").hide();
+});
+
+$(".bigPort-2").mouseover(function () {
+  $(".port-2").show();
+});
+$(".bigPort-2").mouseout(function () {
+  $(".port-2").hide();
+});
 
 // // <!-- 2 -->
 
