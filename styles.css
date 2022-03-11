@@ -46,6 +46,20 @@
   position: relative;
 }
 
+.port-3 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate((-50%, -50%));
+  border: 5px;
+  color: white;
+  height: 80%;
+  width: 80%;
+}
+.bigPort-3 {
+  position: relative;
+}
 
 /* .portfolio {
   position: relative;
