@@ -1,68 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
-    </head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container-fluid bg-1">
-        <div class="row justify-content-between">
-            <div class="col-2 red h-100vh">
-                1
-            </div>
-            <div class="col-2 blue h-100vh">
-                2
-            </div>
-            <div class="col-2 green h-100vh">
-                3
-            </div>
-            <div class="col-2 red h-100vh">
-                4
-            </div>
-            <div class="col-2 blue h-100vh">
-                5
-            </div>
-        </div>
-        <div class="row mt-2">
-            <div class="col-4 green h-100vh">
-                1
-            </div>
-            <div class="col-4 red h-100vh">
-                2
-            </div>
-            <div class="col-4 blue h-100vh">
-                3
-            </div>
-        </div>
+      <div class="row justify-content-between"></div>
+      <div class="row mt-2"></div>
     </div>
-
 
     <div class="container">
-        <h1>This is us</h1>
+      <h1>ABOUT US</h1>
+      <p>
+        When you work with us, you are part of a team of committed
+        collaborators. All aspects of our software development process are
+        intergrated, interactive and agile. Our approach unifies design,
+        development and product management to create exceptional products. We
+        start each project by understanding your business goals, the user's
+        needs and the product requirements. Then we translate them into
+        effective and elegant solutions.
+      </p>
     </div>
 
-
+    <div class="container-fluid bg-2">
+      <div class="row justify-content-between"></div>
+      <div class="row mt-2"></div>
+    </div>
 
     <div class="container">
-        <div class="row">
-            <div class="text-center">
-                <img src="IP3/assets/social_icons/behance.png" alt="">
-                <img src="IP3/assets/social_icons/dribble.png" alt="">
-                <img src="IP3/assets/social_icons/facebook.png" alt="">
-                <img src="IP3/assets/social_icons/flickr.png" alt="">
-            </div>
+      <div class="row justify-content-between">
+        <!-- 1 -->
+        <div>
+          <img
+            src="IP3/assets/services_icons/design_icon.png"
+            alt="design icon"
+            class="js-image"
+          />
+          <div>
+            <h1>hello</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis libero earum vitae unde commodi ipsam mollitia
+              distinctio velit voluptatibus architecto? Ullam in aperiam, soluta
+              praesentium incidunt autem libero est facere.
+            </p>
+          </div>
         </div>
-        
+        <div>
+          <img
+            src="IP3/assets/services_icons/design_icon.png"
+            alt="design icon"
+            class="js-image"
+          />
+          <!-- pu thi inline style in CSS -->
+          <div style="display: none">
+            <h1>hello</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis libero earum vitae unde commodi ipsam mollitia
+              distinctio velit voluptatibus architecto? Ullam in aperiam, soluta
+              praesentium incidunt autem libero est facere.
+            </p>
+          </div>
+        </div>
+        <script>
+          // list the icons
+          var img = document.querySelectorAll(".js-image");
+          // for every icon add an event lietener
+          img.forEach((el) => {
+            // get the text container for each icon. i.e. the clicked icon
+            var nextDisplay = el.nextElementSibling;
+            // when the icon is clicked hide the text container
+            el.addEventListener("click", () => {
+              // this is where we display the text container
+              nextDisplay.style.display = "flex";
+              // this is where we hide the icon
+              el.style.display = "none";
+            });
+
+            // from here the reverse is happening
+            // when the text container is clicked, the ison is displayed and the container hidden
+            nextDisplay.addEventListener("click", () => {
+              nextDisplay.style.display = "none";
+              el.style.display = "flex";
+            });
+          });
+        </script>
+        <!-- 2 -->
+        <!-- 3 -->
+      </div>
     </div>
 
-    
+    <div>
+      <img src="IP3/assets/portfolio/work1.jpg" alt="XXX" class="portfolio" />
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <div class="container-fluid bg-3">
+      <div class="row justify-content-between"></div>
+      <div class="row mt-2"></div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <img src="IP3/assets/social_icons/behance.png" alt="" />
+          <img src="IP3/assets/social_icons/dribble.png" alt="" />
+          <img src="IP3/assets/social_icons/facebook.png" alt="" />
+          <img src="IP3/assets/social_icons/flickr.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
