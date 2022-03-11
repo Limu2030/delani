@@ -44,10 +44,27 @@
 
     <div class="container">
       <div class="row justify-content-between">
-        <!-- 1 -->
+
+        <!-- 1 -->        
         <div>
           <img
             src="IP3/assets/services_icons/design_icon.png"
+            alt="design icon"
+            class="js-image"
+          />                  
+            <h1>hello</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis libero earum vitae unde commodi ipsam mollitia
+              distinctio velit voluptatibus architecto? Ullam in aperiam, soluta
+              praesentium incidunt autem libero est facere.
+            </p>
+          </div>
+        </div>
+       <!-- 2 -->
+        <div>
+          <img
+            src="IP3/assets/services_icons/dev_icon.png"
             alt="design icon"
             class="js-image"
           />
@@ -61,14 +78,14 @@
             </p>
           </div>
         </div>
+        <!-- 3 -->
         <div>
           <img
-            src="IP3/assets/services_icons/design_icon.png"
+            src="IP3/assets/services_icons/product_icon.png"
             alt="design icon"
             class="js-image"
           />
-          <!-- pu thi inline style in CSS -->
-          <div style="display: none">
+          <div>
             <h1>hello</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -78,31 +95,8 @@
             </p>
           </div>
         </div>
-        <script>
-          // list the icons
-          var img = document.querySelectorAll(".js-image");
-          // for every icon add an event lietener
-          img.forEach((el) => {
-            // get the text container for each icon. i.e. the clicked icon
-            var nextDisplay = el.nextElementSibling;
-            // when the icon is clicked hide the text container
-            el.addEventListener("click", () => {
-              // this is where we display the text container
-              nextDisplay.style.display = "flex";
-              // this is where we hide the icon
-              el.style.display = "none";
-            });
 
-            // from here the reverse is happening
-            // when the text container is clicked, the ison is displayed and the container hidden
-            nextDisplay.addEventListener("click", () => {
-              nextDisplay.style.display = "none";
-              el.style.display = "flex";
-            });
-          });
-        </script>
-        <!-- 2 -->
-        <!-- 3 -->
+
       </div>
     </div>
 
