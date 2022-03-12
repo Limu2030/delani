@@ -80,10 +80,10 @@ $(".bigPort-8").mouseout(function () {
 // feedback section
 
 $("#feedback").submit(function(){
-  var name = this.name.value
-  var email = this.email.vaue
-  var message = this.message.value
-  alert(name + " we have received your message. Thank you fro reaching out to us")
+  var name = this.NAME.value
+  var email = this.EMAIL.vaue
+  var message = this.MESSAGE.value
+  alert(name + " we have received your message. Thank you for reaching out to us")
 })
 
 
