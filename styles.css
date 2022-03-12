@@ -7,6 +7,9 @@
   background-image: url(IP3/assets/backgrounds/s_image.jpg);
   height: 100vh;
   background-repeat: no-repeat;
+  color: white;
+  font-size: large;
+  align-content: center;
 }
 
 .bg-3 {
@@ -17,7 +20,7 @@
 }
 .about {
   font-size: large;
-  height: 50vh;
+  height: 40vh;
 }
 .service-description {
   display: none;
@@ -28,6 +31,19 @@
   justify-content: center;
   align-content: center;
   /* flex-wrap: wrap; */
+}
+
+.image-size {
+  width: 80px;
+  height: 80px;
+}
+
+.heading-font {
+  font-size: large;
+}
+
+.service-position {
+  height: 20vh;
 }
 
 .port-1 {

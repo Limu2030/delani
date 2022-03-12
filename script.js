@@ -1,5 +1,5 @@
 // list the icons
-var img = document.querySelectorAll(".js-image",".js-image2",".js-image3");
+var img = document.querySelectorAll(".js-image");
 // for every icon add an event listener
 img.forEach((el) => {
   // get the text container for each icon. i.e. the clicked icon
