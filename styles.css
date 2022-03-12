@@ -11,8 +11,15 @@
 
 .bg-3 {
   background-image: url(IP3/assets/backgrounds/c_image.jpg);
-  height: 900px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+.about {
+  font-size: large;
+  height: 50vh;
+
+
 }
 
 .port-1 {
@@ -130,6 +137,55 @@
 .bigPort-8 {
   position: relative;
 }
+.social {
+  margin-bottom: 5%;
+  margin-top: 0%;
+}
+
+.namerow {
+  width: 100%;
+  background-color: currentColor;
+  color: white;
+  opacity: .5;
+
+}
+
+.messagerow {
+  width: 100%;
+  color: white;
+  background-color: currentColor;
+  opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .portfolio {
   position: relative;
