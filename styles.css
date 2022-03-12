@@ -18,10 +18,17 @@
 .about {
   font-size: large;
   height: 50vh;
-
-
 }
-
+.service-description {
+  display: none;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  /* flex-wrap: wrap; */
+}
 
 .port-1 {
   display: none;
@@ -147,46 +154,15 @@
   width: 100%;
   background-color: currentColor;
   color: white;
-  opacity: .5;
-
+  opacity: 0.5;
 }
 
 .messagerow {
   width: 100%;
   color: white;
   background-color: currentColor;
-  opacity: .5;
+  opacity: 0.5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* .portfolio {
   position: relative;
