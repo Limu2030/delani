@@ -1,4 +1,4 @@
-# Portfolio
+# Delani Studio
 
 ##### by Lillian Muita
 
@@ -11,13 +11,16 @@
 
 ## Description
 
-<p>A brief narration about me, my experiences and a collection of my past project</p>
+<p>Website creation and design</p>
 
 ## Technologies Used
 
 - HTML - used in the structuring of the webpage
 
-- CSS - used in the styling o the webpage
+- CSS - used in the styling of the webpage
+
+- JavaScript - used in webpage behavior
+
 
 ## Live Link
 
