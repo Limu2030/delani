@@ -212,21 +212,3 @@
   color: white;
 }
 
-/* .portfolio {
-  position: relative;
-  width: 100px;
-  height: 100px;
-}
-
-.portfolio:after {
-  content: "";
-  display: none;
-  position: absolute;
-  top: 0;
-  width: 100px;
-  height: 100px;
-  background-color: white;
-}
-.portfolio:hover > .portfolio:after {
-  display: flex;
-} */

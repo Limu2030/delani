@@ -27,7 +27,7 @@
 
 #### http://limu2030.github.io/delani/
 
-## Licence
+## License
 
 [MIT License]
 
