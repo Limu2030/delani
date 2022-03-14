@@ -13,14 +13,15 @@
 
 <p>A landing page for a design studio with various sections. The What We Do icons toggle when clicked between the respective description of each icon. A hover effect for the Portfolio section such that on hover a white box appears with the name of the project inside. A feedback form for their clients that they have received their message and also thanking them for contacting using mail chimp API to track all the emails and messages.  </p>
 
+<img src="IP3/ Delani Studio.jpg" alt="">
+
 ## Technologies Used
 
 - HTML
-- CSS 
-- JavaScript 
+- CSS
+- JavaScript
 - JQuery
 - Bootstrap
-
 
 ## Live Link
 
@@ -28,8 +29,8 @@
 
 ## Licence
 
-[MIT LICENCE]
+[MIT License]
 
-## Authors Info
+### Authors Info
 
 email: lillian.muita@student.moringaschool.com
