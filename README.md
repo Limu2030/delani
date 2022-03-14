@@ -29,7 +29,7 @@
 
 ## License
 
-[MIT License]
+[MIT License](LICENSE)
 
 ### Authors Info
 
